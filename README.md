@@ -35,10 +35,10 @@ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cud
 ``` 
 pip install -r requirements.txt
 ```
-# emphasize
+# Emphasize
 * Replace the fairseq package containing the DR-reformer model
-Copy the fairseq package of OTAP to your dependency environment and replace the originally installed fairseq package(Otherwise fairseq has no DR-reformer model)
-# Getting Started
+* Replace the fairseq package under this git with the default fairseq package installed in the virtual environment you use(Otherwise fairseq has no DR-reformer model)
+# Start Using
 * Pre-training
 ```buildoutcfg
 export CUDA_VISIBLE_DEVICES=0 && bash /home/a/OTAP/train/pre-train.sh /home/a/OTAP/pre-train.yml
